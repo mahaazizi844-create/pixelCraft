@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+ 
+    
+}
+body{
+  background: linear-gradient(to right, #360350, #0e0216);
+  overflow-x: hidden;
+    
+}
+.first{
+    background: linear-gradient(to right, #360350, #0e0216);
+    height: 500px;
+
+}
+body nav{
+    background-color: rgb(22, 21, 21);
+    height: 80px;
+    width: 100%;
+    border: 1px  solid rgb(56, 53, 53);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  
+    
+}
+
+body h2 {
+    color: #9E62CD;
+    padding: 30px;
+    display: flex;
+    font-size: x-large;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+    
+}
+h3{
+    color: white;
+
+}
+#ani{
+    color: gray;
+    cursor: pointer;
+    font-size: medium;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 570px;
+  
+   
+}
+#ani:hover {
+    color: #9E62CD;
+}
+#btn{
+    background-color:  #6042c4;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    height: 40px;
+    width: 150px; 
+    position: relative;
+    top: 19px;
+    left: 570px;
+    cursor: pointer;
+    transition: 0.3s;
+  
+}
+#btn:hover{
+    
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #9E62CD ;
+    font-weight: bolder;
+}
+
+#tit{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9760c2;
+    padding-left: 100px;
+    margin: 100px;
+    position: relative;
+    top: 120px;
+
+}
+#num2{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(168, 164, 164);
+    position: relative;
+    top: 40px;
+    left: 110px;
+}
+
+#btn2{
+     background-color:  #6042c4;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    height: 50px;
+    width: 200px; 
+    position: relative;
+    top: 90px;
+    left: 430px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+#btn2:hover{
+     
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #9E62CD ;
+    font-weight: bolder;
+}
+.prg1{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(19, 18, 18);
+    border: 1px solid rgb(56, 53, 53);
+}
+.emo{
+    font-size:40px;
+    color:pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 50px;
+    padding-top: 35px;
+
+}
+.part1{
+    border: 1px solid rgb(56, 53, 53);
+    background-color:rgb(41, 40, 40);
+    height: 280px;
+    width: 85%;
+    border-radius: 30;
+    box-shadow:0 0 30px rgb(48, 47, 47);
+    position: relative;
+    left: 90PX;
+    top:120PX;
+}
+.pg{
+    color:gray;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 60px;
+    top: 30px;
+
+}
+.prg2{
+    background-color: rgb(4, 1, 15);
+    height: 500px;
+    width: 100%;
+
+}
+.graph {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    width: 80%;
+    height: 250px;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.name{
+    color: pink;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 40px;
+}
+.graph div{
+    background-color: rgb(19, 18, 18) ;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    border: 1px solid rgb(56, 53, 53);
+    transition: 0.3s;
+}
+.graph h1{
+    font-size: 40px;
+}
+.graph h3{
+    font-size: x-large;
+    color: white;
+    padding-top: 20px;
+}
+.graph p{
+    color: gray;
+    font-size: large;
+    padding-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}*
+.graph div:hover{
+    font-weight: 500;
+    box-shadow: 0 0 20px #9E62CD ; 
+    transform: scale(1.05);
+}
+.prg3{
+    background-color: rgb(20, 19, 19);
+    height: 370px;
+    width: 100%;
+
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr );
+    width: 95%;
+    height: 150px;
+    margin-top: 110px;
+    margin-left: 2.5%;
+    gap: 1px;
+    
+    
+
+}
+.card li{
+    border: 1px solid #56296d;
+    background-color: #2e0344;
+    border-radius: 20px;
+    list-style: none;
+    transition: 0.3s;
+    
+    
+}
+.card li a{
+    color: wheat;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    left: 60px;
+    top: 60px;
+    
+   
+}
+.card li:hover{
+    transform: scale(1.05);
+    background:#56296d ;
+
+}
+.prg3 h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(145, 102, 158);
+    position: relative;
+    top: 50px;
+    
+}
+.second{
+    background-color: #000000;
+}
+.prg4{
+    background: linear-gradient(to right, #360350, #0e0216);
+    width: 100%;
+    height: 300px;
+    border-radius: 40px 40px 0px 0px;
+}
+.prg4 h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 50px;
+}
+.prg4 p{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(168, 164, 164);
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+.btn4{
+    background-color:  #c952b9;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    height: 50px;
+    width: 200px; 
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    top: 80px;
+    left: 450px;
+    
+}
+.btn4:hover{
+     
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #9E62CD ;
+    font-weight: bolder;
+   
+}
+footer{
+    background-color: rgb(20, 19, 19);
+    border: 1px solid rgb(39, 38, 38);
+    height: 90px;
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+   
+    
+    
+}
+footer p{
+    color: gray;
+    font-size: medium;
+    text-align: start;  
+    padding: 10px;
+    margin-top: 30px;
+   
+ 
+}
+#final a{
+    color: gray;
+    font-size: medium;
+    text-align: end;
+    text-decoration: none;
+    position: relative;
+    left: 750px;
+    top: 40px;
+    margin: 10px;
+
+}
+#final a:hover {
+    color: pink;
+
+}
